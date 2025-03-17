@@ -22,4 +22,10 @@
         android:name="Emanuelveiga.mobile.com.Estoquegerenciamento.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_cad_item"
+        android:name="Emanuelveiga.mobile.com.Estoquegerenciamento.ui.item.CadItemFragment"
+        android:label="@string/title_cad_item"
+        tools:layout="@layout/fragment_cad_item" />
 </navigation>
