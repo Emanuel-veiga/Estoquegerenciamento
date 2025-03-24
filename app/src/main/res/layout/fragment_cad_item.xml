@@ -18,7 +18,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/cadastroitens" />
+                android:text="@string/nome_do_produto" />
 
             <EditText
                 android:id="@+id/etNome"
@@ -34,7 +34,87 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:text="@string/numero_de_serie" />
+
+            <EditText
+                android:id="@+id/etNumero_serie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:ems="10"
+                android:maxLength="12"
+                android:inputType="number"
+                android:hint="@string/_111222333444"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:text="@string/fabricante" />
+
+            <EditText
+                android:id="@+id/etFabricante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/gerdau"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:text="@string/categoria" />
+
+            <EditText
+                android:id="@+id/etCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:ems="10"
+                android:hint="@string/informatica"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quantidade" />
+
+            <EditText
+                android:id="@+id/etQuantidade"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/_12"
+                android:ems="10"
+                android:inputType="number" />
+
+            <CheckBox
+                android:id="@+id/btfragil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fragil" />
+
+            <Button
+                android:id="@+id/btCadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastrar"
+                android:textColor="#5D4037" />
 
         </LinearLayout>
     </ScrollView>
