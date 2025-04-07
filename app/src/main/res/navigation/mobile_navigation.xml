@@ -28,4 +28,10 @@
         android:name="Emanuelveiga.mobile.com.Estoquegerenciamento.ui.item.CadItemFragment"
         android:label="@string/title_cad_item"
         tools:layout="@layout/fragment_cad_item" />
+    <fragment
+        android:id="@+id/navigation_con_item"
+        android:name="Emanuelveiga.mobile.com.Estoquegerenciamento.ui.item.ConProdutoFragment"
+        android:label="fragment_con_produto_list"
+        tools:layout="@layout/fragment_con_produto_list" />
+
 </navigation>
