@@ -91,7 +91,7 @@ public class ConProdutoFragment extends Fragment implements
         jsonArray.put(produto.toJsonObject());
         //requisição para o Rest Server SEMPRE POST
         jsonArrayReq = new JsonArrayRequest(Request.Method.POST,
-                "http://10.0.2.2:8080/seg/conusuario.php",
+                "http://10.0.2.2/estoquegerenciamento/conproduto.php",
                 jsonArray, this, this);
         //mando executar a requisção na fila do sistema
         requestQueue.add(jsonArrayReq);
