@@ -138,7 +138,7 @@ public class CadItemFragment extends Fragment implements View.OnClickListener, R
                 JSONObject jsonParams = produto.toJsonObject(); // Assuming toJsonObject() is correctly implemented in Produto
                 jsonObjectReq = new JsonObjectRequest(
                         Request.Method.POST,
-                        "http://10.0.2.2:8080/seg/cadusuario.php", // Check your API endpoint
+                        "http://10.0.2.2/estoquegerenciamento/cadproduto.php", // Check your API endpoint
                         jsonParams, this, this);
                 requestQueue.add(jsonObjectReq);
 
